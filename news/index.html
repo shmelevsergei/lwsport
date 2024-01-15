@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/assets/favicon-258083b6.ico"
+    />
+    <title>Laserwar SPORT | Новости</title>
+  <script type="module" crossorigin src="/assets/js/news-a6e75b39.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/js/navigation-d99c9a33.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/ScrollTrigger-e4a43cfc.js">
+  <link rel="stylesheet" href="/assets/css/navigation-8087ea2e.css">
+  <link rel="stylesheet" href="/assets/css/ScrollTrigger-3bd01523.css">
+  <link rel="stylesheet" href="/assets/css/index-677a8a41.css">
+</head>
+<body>
+<div class="page-wrapper news-page">
+    <div class="page-content">
+        <header class=" bg-white py-2.5  xl:py-4">
+    <div class="md:container">
+        <!--    Mobile menu-->
+        <nav class="relative z-50 px-5 flex justify-between md:hidden">
+    <button class="js-burger-btn w-[50px] h-[46px] flex justify-center items-center">
+        <span class="relative w-6 h-0.5 bg-dark before:absolute before:w-full before:h-0.5 before:bg-inherit before:-top-2 before:left-0 after:absolute after:w-full after:h-0.5 after:bg-inherit after:-bottom-2 after:left-0"></span>
+    </button>
+
+    <button data-role="open-order-form" class=" btn-header px-7 py-2.5 text-[20px] leading font-bold lg:text-[26px] lg:tracking-[1.04px] lg:py-2.5">Оставить заявку</button>
+
+    <div class="js-menu-mobile absolute top-0 -translate-y-full left-0 h-screen w-full bg-white flex flex-col items-center justify-center transition-all duration-300">
+        <button class="js-close-btn absolute top-5 right-5">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M25 7L7 25" stroke="#0A0A0C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 25L7 7" stroke="#0A0A0C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+        </button>
+        <a href="/" class="w-[173px] h-[17px] inline-block sm:w-[218px] sm:h-[21px]">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 21" fill="none">
+    <path d="M16.6263 16.2545H4.73792V2.37323C4.73792 1.74386 4.48836 1.13992 4.04409 0.694897C3.59982 0.249871 2.99726 0 2.36897 0C1.74067 0 1.13811 0.249871 0.693839 0.694897C0.24957 1.13992 8.52172e-06 1.74386 8.52172e-06 2.37323V18.6268C-0.000827361 18.9386 0.0598373 19.2477 0.178589 19.536C0.297341 19.8243 0.471847 20.0864 0.691987 20.307C0.912126 20.5275 1.17357 20.702 1.46136 20.8209C1.74915 20.9399 2.05757 21.0008 2.36891 21H16.6263C16.9378 21.0006 17.2463 20.9399 17.5343 20.8209C17.8223 20.702 18.084 20.5274 18.3045 20.307C18.525 20.0865 18.6999 19.8242 18.8192 19.536C18.9386 19.2478 19 18.9388 19 18.6268C19 18.3147 18.9386 18.0058 18.8192 17.7176C18.6999 17.4293 18.525 17.1679 18.3045 16.9475C18.084 16.7271 17.8223 16.5525 17.5343 16.4335C17.2463 16.3146 16.9378 16.2538 16.6263 16.2545Z" fill="#FF0000"/>
+    <path d="M63.5635 8.12723H55.4363C55.2132 8.13542 54.991 8.09561 54.7847 8.01034C54.5784 7.92506 54.3928 7.79605 54.2406 7.63273C53.9241 7.31527 53.7463 6.88513 53.7462 6.43684C53.7461 5.98856 53.9236 5.55857 54.24 5.24095C54.3922 5.07747 54.5779 4.94878 54.7843 4.86335C54.9907 4.77793 55.2131 4.73744 55.4363 4.74553H60.6414C61.2707 4.74553 61.8743 4.49564 62.3193 4.05063C62.7643 3.60562 63.0142 3.00257 63.0142 2.37323C63.0142 1.74389 62.7643 1.13991 62.3193 0.694897C61.8743 0.249885 61.2707 0 60.6414 0H55.4363C53.7293 0 52.0922 0.67814 50.8852 1.88522C49.6781 3.0923 49 4.72977 49 6.43684C49 8.14392 49.6781 9.78046 50.8852 10.9875C52.0922 12.1946 53.7293 12.8728 55.4363 12.8728H63.5635C63.7862 12.8717 64.0069 12.9154 64.2129 12.9999C64.4189 13.0844 64.6062 13.2083 64.7641 13.3654C64.9219 13.5225 65.0472 13.709 65.1326 13.9146C65.2181 14.1203 65.262 14.3414 65.262 14.5641C65.262 14.7868 65.2181 15.007 65.1326 15.2126C65.0472 15.4182 64.9219 15.6047 64.7641 15.7618C64.6062 15.9189 64.4189 16.0438 64.2129 16.1283C64.0069 16.2128 63.7862 16.2555 63.5635 16.2545H58.3583C58.0463 16.2538 57.7372 16.3146 57.4487 16.4335C57.1603 16.5525 56.8981 16.7271 56.6773 16.9475C56.4564 17.1679 56.2812 17.4303 56.1617 17.7185C56.0421 18.0067 55.9806 18.3157 55.9806 18.6277C55.9806 18.9397 56.0421 19.2487 56.1617 19.5369C56.2812 19.8251 56.4564 20.0865 56.6773 20.307C56.8981 20.5274 57.1603 20.702 57.4487 20.8209C57.7372 20.9399 58.0463 21.0006 58.3583 21H63.5635C65.2706 21 66.9077 20.3219 68.1148 19.1148C69.3219 17.9077 70 16.2703 70 14.5632C70 12.856 69.3219 11.2196 68.1148 10.0125C66.9077 8.80534 65.2706 8.12724 63.5635 8.12723Z" fill="#FF0000"/>
+    <path d="M124.112 1.88716C123.522 1.27996 122.815 0.799859 122.032 0.47545C121.25 0.151042 120.41 -0.0107229 119.563 0.000551278H107.373C107.061 -0.000202832 106.752 0.0606119 106.464 0.179566C106.176 0.29852 105.914 0.472979 105.693 0.693422C105.473 0.913864 105.298 1.17604 105.179 1.46421C105.06 1.75237 104.999 2.06144 105 2.37319V18.6227C104.999 18.9347 105.06 19.2443 105.179 19.5326C105.298 19.821 105.473 20.0826 105.693 20.3034C105.914 20.5242 106.176 20.6996 106.464 20.8191C106.752 20.9387 107.061 21 107.373 21C107.685 21 107.994 20.9387 108.282 20.8191C108.57 20.6996 108.832 20.5242 109.053 20.3034C109.273 20.0826 109.448 19.821 109.567 19.5326C109.686 19.2443 109.747 18.9347 109.746 18.6227V4.74491H119.563C120.012 4.74491 120.442 4.92326 120.759 5.24021C121.076 5.55716 121.254 5.98664 121.254 6.43488C121.254 6.88311 121.076 7.31353 120.759 7.63048C120.442 7.94742 120.012 8.12578 119.563 8.12578H115.989C115.47 8.1139 114.959 8.25901 114.523 8.54224C114.087 8.82548 113.747 9.23321 113.547 9.7128C113.358 10.1512 113.302 10.6358 113.384 11.106C113.467 11.5761 113.686 12.0117 114.014 12.3591L121.816 20.1587C121.877 20.2284 121.943 20.2946 122.013 20.3554C122.446 20.772 123.026 21.0014 123.627 20.9954C123.939 20.9962 124.248 20.9353 124.536 20.8163C124.824 20.6974 125.086 20.523 125.307 20.3025C125.527 20.082 125.702 19.82 125.821 19.5317C125.94 19.2435 126.001 18.9345 126 18.6227C126.003 18.0023 125.764 17.4059 125.333 16.9587L121.077 12.7023C122.189 12.4325 123.208 11.8715 124.031 11.0772C124.855 10.283 125.451 9.28445 125.76 8.18329C126.069 7.08213 126.08 5.91812 125.79 4.81169C125.5 3.70526 124.921 2.69578 124.112 1.88716Z" fill="#FF0000"/>
+    <path d="M213.076 12.702C214.608 12.3304 215.95 11.4108 216.849 10.1169C217.747 8.823 218.141 7.24472 217.955 5.68039C217.768 4.11607 217.015 2.67363 215.837 1.62695C214.66 0.580275 213.139 0.00175446 211.564 7.62846e-06H199.373C199.061 -0.000784253 198.752 0.0600832 198.464 0.179027C198.176 0.297971 197.914 0.47244 197.693 0.692896C197.473 0.913352 197.298 1.17551 197.179 1.4637C197.06 1.75189 196.999 2.06094 197 2.37271V18.6227C196.999 18.9346 197.06 19.2442 197.179 19.5326C197.298 19.821 197.473 20.0826 197.693 20.3034C197.914 20.5242 198.176 20.6996 198.464 20.8191C198.752 20.9387 199.061 21 199.373 21C199.685 21 199.994 20.9387 200.282 20.8191C200.57 20.6996 200.832 20.5242 201.053 20.3034C201.273 20.0826 201.448 19.821 201.567 19.5326C201.686 19.2442 201.747 18.9346 201.746 18.6227V4.74448H211.564C212.012 4.74448 212.442 4.92284 212.759 5.2398C213.076 5.55676 213.254 5.98626 213.254 6.4345C213.254 6.88275 213.076 7.31317 212.759 7.63013C212.442 7.94709 212.012 8.12545 211.564 8.12545H207.989C207.47 8.11358 206.959 8.25786 206.523 8.54099C206.087 8.82413 205.747 9.23213 205.548 9.71158C205.358 10.15 205.301 10.6344 205.384 11.1048C205.467 11.5751 205.686 12.0115 206.014 12.3588L213.817 20.1596C213.878 20.2288 213.943 20.2938 214.012 20.3544C214.446 20.7713 215.025 21.0014 215.627 20.9954C215.939 20.9962 216.248 20.9353 216.536 20.8163C216.824 20.6974 217.086 20.523 217.307 20.3025C217.527 20.082 217.702 19.8199 217.821 19.5317C217.94 19.2434 218.001 18.9345 218 18.6227C218.003 18.002 217.763 17.4048 217.333 16.9577L213.076 12.702Z" fill="#FF0000"/>
+    <path d="M78.4138 13H88.5958C89.2339 12.9987 89.8454 12.7344 90.2961 12.2657C90.7469 11.797 91 11.1617 91 10.4995C91 9.83732 90.7469 9.203 90.2961 8.73429C89.8454 8.26558 89.2339 8.00133 88.5958 8.00001H78.4138C78.0971 7.99935 77.7833 8.06362 77.4905 8.18896C77.1976 8.31431 76.9315 8.49816 76.7073 8.73037C76.4831 8.96259 76.3052 9.23835 76.1838 9.542C76.0625 9.84565 76 10.1708 76 10.4995C76 10.8282 76.0625 11.1543 76.1838 11.458C76.3052 11.7616 76.4831 12.0374 76.7073 12.2696C76.9315 12.5018 77.1976 12.6857 77.4905 12.811C77.7833 12.9364 78.0971 13.0007 78.4138 13Z" fill="#FF0000"/>
+    <path d="M94.6057 5.00635e-06H78.3943C78.0801 -0.00065329 77.7689 0.0636156 77.4784 0.188961C77.188 0.314306 76.924 0.498155 76.7016 0.730374C76.4792 0.962592 76.3027 1.23835 76.1824 1.542C76.062 1.84565 76 2.17175 76 2.50049C76 2.82923 76.062 3.15435 76.1824 3.458C76.3027 3.76165 76.4792 4.03741 76.7016 4.26963C76.924 4.50184 77.188 4.68569 77.4784 4.81104C77.7689 4.93638 78.0801 5.00065 78.3943 5H94.6057C94.9199 5.00065 95.2311 4.93638 95.5216 4.81104C95.8121 4.68569 96.0761 4.50184 96.2985 4.26963C96.5209 4.03741 96.6973 3.76165 96.8177 3.458C96.9381 3.15435 97 2.82923 97 2.50049C97 2.17175 96.9381 1.84565 96.8177 1.542C96.6973 1.23835 96.5209 0.962592 96.2985 0.730374C96.0761 0.498155 95.8121 0.314306 95.5216 0.188961C95.2311 0.0636156 94.9199 -0.00065329 94.6057 5.00635e-06Z" fill="#FF0000"/>
+    <path d="M94.6057 16H78.3943C78.0801 15.9993 77.7689 16.0636 77.4784 16.189C77.188 16.3143 76.924 16.4982 76.7016 16.7304C76.4792 16.9626 76.3027 17.2384 76.1824 17.542C76.062 17.8457 76 18.1708 76 18.4995C76 18.8282 76.062 19.1543 76.1824 19.458C76.3027 19.7616 76.4792 20.0374 76.7016 20.2696C76.924 20.5018 77.188 20.6857 77.4784 20.811C77.7689 20.9364 78.0801 21.0007 78.3943 21H94.6057C94.9199 21.0007 95.2311 20.9364 95.5216 20.811C95.8121 20.6857 96.0761 20.5018 96.2985 20.2696C96.5209 20.0374 96.6973 19.7616 96.8177 19.458C96.9381 19.1543 97 18.8282 97 18.4995C97 18.1708 96.9381 17.8457 96.8177 17.542C96.6973 17.2384 96.5209 16.9626 96.2985 16.7304C96.0761 16.4982 95.8121 16.3143 95.5216 16.189C95.2311 16.0636 94.9199 15.9993 94.6057 16Z" fill="#FF0000"/>
+    <path d="M36.6187 1.30554C36.426 0.91713 36.1306 0.590631 35.7649 0.360277C35.3992 0.129923 34.9775 0.00472254 34.5461 0H34.5105H34.4683C34.0347 0.0029399 33.6104 0.126076 33.2422 0.356563C32.8741 0.58705 32.5764 0.915448 32.3822 1.30554L24.2515 17.5579C23.9704 18.1205 23.9229 18.7726 24.1193 19.3704C24.3157 19.9683 24.74 20.4634 25.299 20.7466C25.8579 21.0297 26.5057 21.0776 27.0999 20.8803C27.6941 20.683 28.1862 20.2567 28.4679 19.6945L34.5005 7.63638L40.533 19.6945C40.8151 20.2561 41.3071 20.6815 41.9011 20.8784C42.495 21.0753 43.1424 21.0276 43.7009 20.7447C44.2595 20.4618 44.6837 19.9668 44.8803 19.3695C45.0769 18.7722 45.0299 18.1204 44.7496 17.5579L36.6187 1.30554Z" fill="#FF0000"/>
+    <path d="M182.709 1.51118C182.535 1.06694 182.233 0.685667 181.841 0.416108C181.45 0.14655 180.986 0.00158053 180.511 0H180.494C180.018 0.000373325 179.553 0.144606 179.161 0.414251C178.768 0.683896 178.465 1.06601 178.291 1.51118L170.249 17.5639C169.969 18.1264 169.923 18.7766 170.121 19.3732C170.318 19.9698 170.743 20.4633 171.301 20.746C171.86 21.0286 172.508 21.0777 173.102 20.8816C173.697 20.6854 174.19 20.2597 174.473 19.6992L180.5 7.67107L186.527 19.6992C186.81 20.2597 187.303 20.6854 187.898 20.8816C188.492 21.0777 189.14 21.0286 189.699 20.746C190.257 20.4633 190.682 19.9698 190.879 19.3732C191.077 18.7766 191.031 18.1264 190.751 17.5639L182.709 1.51118Z" fill="#FF0000"/>
+    <path d="M166.675 0.25535L166.672 0.253493C166.102 -0.028726 165.442 -0.0766476 164.836 0.120711C164.23 0.31807 163.728 0.743876 163.441 1.30554L157.291 13.3534L151.246 1.51074C151.07 1.06658 150.762 0.685453 150.363 0.415989C149.964 0.146524 149.492 0.00144101 149.008 0H148.99C148.506 0.000516237 148.033 0.144589 147.632 0.414132C147.232 0.683675 146.924 1.0658 146.747 1.51074L140.705 13.3488L134.558 1.30554C134.27 0.743859 133.768 0.318604 133.162 0.12164C132.556 -0.0753246 131.895 -0.0275734 131.326 0.25535C130.756 0.538274 130.323 1.03316 130.122 1.63053C129.921 2.2279 129.97 2.87869 130.256 3.44119L138.552 19.6945C138.743 20.0653 139.029 20.3798 139.382 20.6082C139.734 20.8365 140.141 20.9706 140.562 20.9963C140.593 20.998 140.624 20.9996 140.646 21H140.69H140.755C140.786 20.9996 140.817 20.9979 140.864 20.9954C141.282 20.9677 141.686 20.8335 142.036 20.6054C142.385 20.3772 142.669 20.0633 142.858 19.6945L148.997 7.66886L155.135 19.6945C155.331 20.0813 155.632 20.4067 156.003 20.6369C156.375 20.8672 156.803 20.9931 157.242 21H157.304H157.336C157.776 20.9936 158.205 20.8681 158.577 20.6379C158.949 20.4076 159.25 20.0817 159.447 19.6945L167.743 3.44212C167.885 3.16376 167.97 2.86059 167.993 2.54979C168.017 2.23899 167.978 1.92644 167.878 1.63053C167.779 1.33461 167.622 1.06052 167.416 0.824549C167.209 0.588579 166.958 0.39544 166.675 0.25535Z" fill="#FF0000"/>
+</svg>
+</a>
+        <ul class="flex flex-col gap-8 items-center max-w-[270px] mx-auto mt-20 sm:mt-24 sm:max-w-full">
+            <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="#!" target="{=$target}" class="js-menu-link leading md:hover:text-darkBlue transition-all">Франшиза</a>
+</li>
+            <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="#!" target="{=$target}" class="js-menu-link leading md:hover:text-darkBlue transition-all">Лазертаг-оборудование</a>
+</li>
+            <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="/news/" target="{=$target}" class="js-menu-link leading md:hover:text-darkBlue transition-all">Новости</a>
+</li>
+            <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="#!" target="{=$target}" class="js-menu-link leading md:hover:text-darkBlue transition-all">Контакты</a>
+</li>
+        </ul>
+        <button data-role="open-order-form" class="mt-24 sm:mt-20 btn-header px-7 py-2.5 text-[20px] leading font-bold lg:text-[26px] lg:tracking-[1.04px] lg:py-2.5">Оставить заявку</button>
+    </div>
+
+</nav>
+
+        <!--    Desktop menu-->
+        <nav class="hidden md:flex sticky justify-between">
+
+    <ul class="flex gap-8 items-center lg:gap-x-12">
+        <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="#!" target="_parent" class="js-menu-link leading md:hover:text-darkBlue transition-all">Франшиза</a>
+</li>
+        <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="https://laserwar.ru/shop/" target="_blank" class="js-menu-link leading md:hover:text-darkBlue transition-all">Лазертаг-оборудование</a>
+</li>
+        <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="/news/" target="_parent" class="js-menu-link leading md:hover:text-darkBlue transition-all">Новости</a>
+</li>
+        <li class="text-[40px] font-bold tracking-[.8px] text-center sm:text-5xl md:text-[32px] lg:leading-[30px]">
+    <a href="#contacts" target="_parent" class="js-menu-link leading md:hover:text-darkBlue transition-all">Контакты</a>
+</li>
+    </ul>
+    <button data-role="open-order-form" class=" btn-header px-7 py-2.5 text-[20px] leading font-bold lg:text-[26px] lg:tracking-[1.04px] lg:py-2.5">Оставить заявку</button>
+</nav>
+    </div>
+
+</header>
+        <main>
+<!--    Breadcrumbs-->
+    <section class="container py-8">
+    <ul class="flex gap-1 text-[#828282] font-open">
+        <li>
+            <a href="/">Главная </a>
+        </li>
+        <li><span> / </span></li>
+        <li>
+            <span>Новости</span>
+        </li>
+    </ul>
+</section>
+
+    <section>
+    <div class="container">
+        <div class="sm:flex sm:justify-between sm:items-center">
+            <h2 class="text-[40px] leading-[120%] font-semibold text-[#0A0A0C]">Последние новости</h2>
+            <div class="hidden sm:flex gap-5 items-center">
+                <button type="button" class="news-page-slider_button-prev">
+                    <span>
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="transition-all" d="M30.4853 15H24.75L15 27.406L24.75 40H30.4853L22.2647 29.6617H41V25.5263H22.2647L30.4853 15Z" fill="#0B1328"/>
+                        </svg>
+
+                    </span>
+                </button>
+                <button type="button" class="news-page-slider_button-next">
+                    <span>
+                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="transition-all" d="M25.5147 15H31.25L41 27.406L31.25 40H25.5147L33.7353 29.6617H15V25.5263H33.7353L25.5147 15Z" fill="#0B1328"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="swiper mt-6 news-page-slider sm:mt-5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="/news/article/" class="block group">
+    <div class="h-[168px] sm:h-[255px] overflow-hidden">
+        <img src="/assets/images/slide-img-6ee6c99f.webp" alt="img" loading="lazy" class=" h-full w-full object-cover object-center transition-all group-hover:scale-110">
+    </div>
+
+    <div class="flex justify-between mt-3.5">
+        <p class="text-[#4A485B] text-xl pl-2">
+            #<span>Открытие арены</span>
+        </p>
+
+        <time datetime="2022-01-20" class="text-xl text-[#A19FAE]">20 Января 2022</time>
+    </div>
+
+    <h3 class="text-[#1D1D1F] text-2xl font-semibold leading max-w-[260px] mt-5 sm:text-[32px] sm:max-w-full">Создаем сеть VR-арен AVATAR GAMES по всему миру</h3>
+</a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/news/article/" class="block group">
+    <div class="h-[168px] sm:h-[255px] overflow-hidden">
+        <img src="/assets/images/slide-img-6ee6c99f.webp" alt="img" loading="lazy" class=" h-full w-full object-cover object-center transition-all group-hover:scale-110">
+    </div>
+
+    <div class="flex justify-between mt-3.5">
+        <p class="text-[#4A485B] text-xl pl-2">
+            #<span>Открытие арены</span>
+        </p>
+
+        <time datetime="2022-01-20" class="text-xl text-[#A19FAE]">20 Января 2022</time>
+    </div>
+
+    <h3 class="text-[#1D1D1F] text-2xl font-semibold leading max-w-[260px] mt-5 sm:text-[32px] sm:max-w-full">Создаем сеть VR-арен AVATAR GAMES по всему миру</h3>
+</a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="/news/article/" class="block group">
+    <div class="h-[168px] sm:h-[255px] overflow-hidden">
+        <img src="/assets/images/slide-img-6ee6c99f.webp" alt="img" loading="lazy" class=" h-full w-full object-cover object-center transition-all group-hover:scale-110">
+    </div>
+
+    <div class="flex justify-between mt-3.5">
+        <p class="text-[#4A485B] text-xl pl-2">
+            #<span>Открытие арены</span>
+        </p>
+
+        <time datetime="2022-01-20" class="text-xl text-[#A19FAE]">20 Января 2022</time>
+    </div>
+
+    <h3 class="text-[#1D1D1F] text-2xl font-semibold leading max-w-[260px] mt-5 sm:text-[32px] sm:max-w-full">Создаем сеть VR-арен AVATAR GAMES по всему миру</h3>
+</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-page-slider_scrollbar mt-8"></div>
+    </div>
+
+</section>
+
+    <section class="pt-14">
+    <div class="container">
+        <div class="sm:flex sm:justify-between sm:items-center">
+            <h1 class="text-[#0A0A0C] text-[56px] font-semibold leading">Новости</h1>
+            <div class="checkbox-block-news-page flex text-2xl font-bold leading-[150%] text-[#1D1D1F] gap-5 mt-8 sm:mt-2">
+                <div class="flex ">
+                    <input type="checkbox" checked name="news" id="news">
+                    <label class="ml-2.5" for="news"> Новости </label>
+                </div>
+
+                <div class="flex ">
+                    <input type="checkbox" checked name="articles" id="articles">
+                    <label class="ml-2.5" for="articles">Статьи</label>
+                </div>
+
+                <div class="flex ">
+                    <input type="checkbox" checked name="video" id="video">
+                    <label class="ml-2.5" for="video">Видео</label>
+                </div>
+            </div>
+        </div>
+        <div class="filter-block-news-page grid grid-cols-2 gap-1 mt-5 sm:grid-cols-3 md:flex md:flex-wrap">
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Все категории</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Открытие арены</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Бизнес</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Оборудование</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Софт</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Конкурсы</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Полезные материалы</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Мероприятия</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Всё о VR</button>
+            <button type="button" class="py-2 border border-[#E8ECF4] bg-white text-[#001424] text-lg font-openCondensed hover:bg-[#001424] hover:border-[#001424] hover:text-white transition-all md:px-8">Обновления</button>
+        </div>
+    </div>
+
+</section>
+
+    <section class="pt-14">
+    <div class="container">
+        <div class="articles-block-news-page">
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:w-full lg:h-[675px] xl:h-[787px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/video_bg-35bf3b6c.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300">
+        </picture>
+
+        <button type="button" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[75px] h-[75px] sm:w-[100px] sm:h-[100px] md:w-[130px] md:h-[130px]" >
+            <img src="/assets/youtube-9c738176.svg" alt="youtube" loading="lazy" class="w-full h-full">
+        </button>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 xl:mb-[72px]">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px]">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+            <a href="/news/article/" class="inline-block preview-wrapper_news-page relative">
+    <div class="relative h-[179px] sm:h-[338px] md:h-[554px] lg:h-[335px] xl:h-[385px] overflow-hidden">
+        <picture>
+            <img src="/assets/images/text_bg-06830e49.webp" alt="img" loading="lazy" class="h-full object-center object-cover transition-all duration-300 ">
+        </picture>
+    </div>
+
+    <div class="mt-2.5 md:flex md:flex-col md:absolute md:bottom-10 md:left-10 md:gap-5 lg:relative lg:bottom-0 lg:left-0 lg:mt-7">
+        <div class="flex justify-between md:order-2 md:justify-start md:gap-2.5 lg:justify-between lg:order-1">
+            <p class="text-[#4A485B] text-xl md:py-1 md:px-2 md:bg-white md:text-[28px] lg:bg-transparent">#<span>Открытие арены</span> </p>
+            <time datetime="2022-01-20" class="text-[#A19FAE] text-xl md:py-1 md:px-2 md:bg-white md:text-[#4A485B] md:text-[28px] lg:bg-transparent lg:text-[#A19FAE]"> 20 Января 2022</time>
+        </div>
+        <h3 class="text-2xl text-[#1D1D1F] font-semibold leading max-w-[260px] mt-3.5 sm:text-5xl sm:max-w-full md:order-1 md:text-[64px] md:text-white md:leading-[90%] md:uppercase lg:text-[#1D1D1F] lg:text-5xl lg:normal-case">
+            Создаем сеть VR-арен AVATAR GAMES по всему миру
+        </h3>
+    </div>
+
+</a>
+        </div>
+
+        <button type="button" class="block my-[120px] py-3 px-6 border-b-2 border-b-[#4A485B] w-max mx-auto text-2xl leading text-[#4A485B] sm:my-[100px] md:my-[120px] xl:my-[100px] hover:text-[#00F] hover:border-b-[#00F]">Показать ещё</button>
+    </div>
+
+</section>
+
+
+</main>
+    </div>
+    <footer class="pt-14 pb-7 lg:pb-20">
+    <div id="contacts" class="lg:container flex flex-col items-center lg:flex-row lg:flex-wrap lg:justify-between lg:items-end">
+        <h2 class="text-center text-3xl font-medium uppercase max-w-[266px] mx-auto leading-[110%] sm:max-w-full lg:order-1 lg:shrink-1 lg:mx-0 lg:mr-auto lg:w-[50%] lg:text-left">Франшиза секций спортивного лазертага</h2>
+        <div class="mt-10 lg:order-3 lg:mt-[70px] ">
+            <p class="text-[#C6CDE4] text-sm font-semibold text-center mb-5 font-open lg:text-left">Мы в соцсетях</p>
+            <ul class="flex justify-center gap-3.5 mb-12 sm:mb-14 lg:mb-0">
+                <li class="w-8 h-8 rounded-full transition-all hover:scale-110">
+                    <a href="!#">
+                        <img src="/assets/icon-vk-3f7064c1.svg" alt="img" loading="lazy">
+                    </a>
+                </li>
+
+                <li class="w-8 h-8 rounded-full transition-all hover:scale-110">
+                    <a href="!#">
+                        <img src="/assets/icon-youtube-b44d5be9.svg" alt="img" loading="lazy">
+                    </a>
+                </li>
+
+                <li class="w-8 h-8 rounded-full transition-all hover:scale-110">
+                    <a href="!#">
+                        <img src="/assets/icon-instagram-c5977e22.svg" alt="img" loading="lazy">
+                    </a>
+                </li>
+
+                <li class="w-8 h-8 rounded-full transition-all hover:scale-110">
+                    <a href="!#">
+                        <img src="/assets/icon-facebook-9573dc7c.svg" alt="img" loading="lazy">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="text-[#828282] text-xs font-openCondensed flex flex-col text-center gap-2.5 mb-8 sm:flex-row sm:gap-7 sm:justify-center md:text-sm lg:order-5 lg:mb-0 lg:text-xs">
+            <a href="!#" class="hover:underline">Политика конфиденциальности</a>
+            <a href="!#" class="hover:underline">О деятельности</a>
+        </div>
+
+        <div class="text-[#828282] text-xs font-openCondensed flex flex-col text-center gap-2.5 sm:flex-row sm:gap-7 sm:justify-center md:text-sm lg:order-4 lg:text-xs">
+            <address>214031, г Смоленск, ул. Попова 40/2</address>
+            <p>ИНН: 6732019201</p>
+            <p>КПП: 673201001</p>
+        </div>
+        <a href="/" class="footer-logo_new-page w-max mx-auto inline-block mt-12 lg:order-2 lg:mr-0 lg:ml-auto lg:mt-0 lg:w-[50%]">
+    <svg class="w-[111px] lg:ml-auto lg:w-[222px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 223 22" fill="none">
+        <path d="M17.0817 16.5888H4.8677V2.42204C4.8677 1.77973 4.6113 1.16337 4.15486 0.70919C3.69842 0.255011 3.07935 0 2.43385 0C1.78835 0 1.16928 0.255011 0.712844 0.70919C0.256406 1.16337 8.75514e-06 1.77973 8.75514e-06 2.42204V19.0099C-0.000850022 19.3282 0.0614762 19.6436 0.183481 19.9378C0.305485 20.232 0.484771 20.4996 0.71094 20.7246C0.93711 20.9497 1.20571 21.1278 1.50139 21.2492C1.79706 21.3706 2.11393 21.4328 2.43379 21.4319H17.0817C17.4017 21.4326 17.7187 21.3706 18.0146 21.2492C18.3104 21.1278 18.5793 20.9496 18.8059 20.7246C19.0324 20.4997 19.2121 20.232 19.3347 19.9378C19.4573 19.6437 19.5204 19.3283 19.5204 19.0099C19.5204 18.6914 19.4573 18.3761 19.3347 18.082C19.2121 17.7878 19.0324 17.521 18.8059 17.2961C18.5793 17.0711 18.3104 16.893 18.0146 16.7715C17.7187 16.6501 17.4017 16.5882 17.0817 16.5888Z" fill="#C6CDE4"/>
+        <path d="M64.788 8.2944H56.4521C56.2233 8.30276 55.9954 8.26213 55.7838 8.1751C55.5722 8.08807 55.3818 7.9564 55.2257 7.78973C54.9011 7.46574 54.7187 7.02675 54.7186 6.56924C54.7185 6.11174 54.9006 5.67291 55.2251 5.34875C55.3813 5.1819 55.5716 5.05057 55.7834 4.96339C55.9951 4.8762 56.2231 4.83488 56.4521 4.84313H61.7908C62.4363 4.84313 63.0554 4.58811 63.5118 4.13394C63.9682 3.67978 64.2246 3.06433 64.2246 2.42204C64.2246 1.77975 63.9682 1.16336 63.5118 0.70919C63.0554 0.255025 62.4363 0 61.7908 0H56.4521C54.7013 0 53.0222 0.692088 51.7841 1.924C50.5461 3.15591 49.8506 4.82706 49.8506 6.56924C49.8506 8.31143 50.5461 9.98163 51.7841 11.2135C53.0222 12.4454 54.7013 13.1375 56.4521 13.1375H64.788C65.0164 13.1365 65.2427 13.181 65.454 13.2673C65.6654 13.3535 65.8575 13.48 66.0194 13.6403C66.1813 13.8006 66.3097 13.991 66.3974 14.2008C66.485 14.4107 66.5301 14.6364 66.5301 14.8636C66.5301 15.0909 66.485 15.3156 66.3974 15.5255C66.3097 15.7354 66.1813 15.9257 66.0194 16.086C65.8575 16.2463 65.6654 16.3738 65.454 16.46C65.2427 16.5463 65.0164 16.5899 64.788 16.5888H59.4491C59.1291 16.5882 58.8121 16.6501 58.5162 16.7715C58.2204 16.893 57.9515 17.0711 57.725 17.2961C57.4984 17.5211 57.3187 17.7888 57.1961 18.0829C57.0735 18.3771 57.0104 18.6924 57.0104 19.0108C57.0104 19.3293 57.0735 19.6446 57.1961 19.9388C57.3187 20.2329 57.4984 20.4997 57.725 20.7246C57.9515 20.9496 58.2204 21.1278 58.5162 21.2492C58.8121 21.3706 59.1291 21.4326 59.4491 21.4319H64.788C66.5389 21.4319 68.218 20.7399 69.4561 19.5079C70.6942 18.276 71.3897 16.6049 71.3897 14.8627C71.3897 13.1205 70.6942 11.4503 69.4561 10.2184C68.218 8.98645 66.5389 8.2944 64.788 8.2944Z" fill="#C6CDE4"/>
+        <path d="M127.07 1.92645C126.465 1.30661 125.739 0.816513 124.937 0.48535C124.135 0.154186 123.273 -0.0109461 122.405 0.000562756H109.902C109.582 -0.000207055 109.265 0.0618739 108.969 0.183305C108.674 0.304736 108.405 0.482827 108.179 0.707859C107.953 0.932892 107.774 1.20053 107.651 1.49469C107.529 1.78886 107.467 2.10436 107.468 2.4226V19.0105C107.467 19.3289 107.53 19.6449 107.652 19.9393C107.774 20.2337 107.953 20.5008 108.179 20.7262C108.405 20.9516 108.673 21.1306 108.969 21.2526C109.265 21.3746 109.582 21.4372 109.902 21.4372C110.222 21.4372 110.539 21.3746 110.834 21.2526C111.13 21.1306 111.398 20.9516 111.624 20.7262C111.85 20.5008 112.03 20.2337 112.152 19.9393C112.274 19.6449 112.336 19.3289 112.336 19.0105V4.8437H122.405C122.865 4.8437 123.306 5.02577 123.631 5.34932C123.956 5.67286 124.139 6.11129 124.139 6.56886C124.139 7.02643 123.956 7.4658 123.631 7.78935C123.306 8.1129 122.865 8.29497 122.405 8.29497H118.739C118.206 8.28284 117.682 8.43097 117.235 8.7201C116.788 9.00924 116.439 9.42546 116.234 9.91502C116.04 10.3625 115.982 10.8572 116.067 11.3372C116.152 11.8172 116.377 12.2618 116.713 12.6164L124.716 20.5784C124.778 20.6496 124.845 20.7171 124.917 20.7792C125.361 21.2045 125.956 21.4387 126.572 21.4325C126.892 21.4334 127.209 21.3712 127.505 21.2498C127.801 21.1283 128.069 20.9503 128.295 20.7252C128.522 20.5001 128.701 20.2326 128.823 19.9384C128.945 19.6441 129.007 19.3288 129.006 19.0105C129.009 18.3772 128.764 17.7683 128.323 17.3118L123.957 12.9667C125.097 12.6913 126.143 12.1186 126.987 11.3078C127.832 10.4971 128.444 9.47776 128.761 8.35367C129.078 7.22958 129.088 6.04134 128.791 4.91187C128.494 3.78241 127.9 2.75191 127.07 1.92645Z" fill="#C6CDE4"/>
+        <path d="M217.95 12.9662C219.52 12.5868 220.897 11.6481 221.819 10.3273C222.741 9.00647 223.144 7.39537 222.953 5.79851C222.762 4.20166 221.989 2.72922 220.781 1.66078C219.574 0.592342 218.014 0.00179094 216.398 7.78709e-06H203.895C203.575 -0.000800561 203.258 0.0613325 202.962 0.18275C202.667 0.304167 202.398 0.482264 202.172 0.707304C201.946 0.932344 201.767 1.19995 201.645 1.49414C201.523 1.78832 201.46 2.1038 201.461 2.42205V19.0099C201.46 19.3284 201.523 19.6444 201.645 19.9388C201.767 20.2332 201.946 20.5002 202.172 20.7256C202.398 20.951 202.667 21.13 202.962 21.252C203.258 21.3741 203.575 21.4367 203.895 21.4367C204.215 21.4367 204.532 21.3741 204.827 21.252C205.123 21.13 205.392 20.951 205.618 20.7256C205.844 20.5002 206.023 20.2332 206.145 19.9388C206.267 19.6444 206.329 19.3284 206.329 19.0099V4.84314H216.398C216.858 4.84314 217.299 5.02521 217.624 5.34876C217.949 5.67231 218.132 6.11074 218.132 6.5683C218.132 7.02587 217.949 7.46524 217.624 7.78879C217.299 8.11234 216.858 8.29441 216.398 8.29441H212.732C212.199 8.2823 211.675 8.42958 211.228 8.7186C210.782 9.00762 210.433 9.42411 210.228 9.91352C210.034 10.3611 209.975 10.8556 210.06 11.3357C210.145 11.8158 210.37 12.2613 210.706 12.6158L218.709 20.5788C218.772 20.6494 218.838 20.7158 218.91 20.7777C219.354 21.2032 219.949 21.4381 220.566 21.4319C220.885 21.4328 221.202 21.3706 221.498 21.2492C221.794 21.1278 222.063 20.9497 222.289 20.7246C222.515 20.4996 222.694 20.2321 222.816 19.9378C222.938 19.6436 223.001 19.3282 223 19.0099C223.002 18.3764 222.757 17.7668 222.315 17.3103L217.95 12.9662Z" fill="#C6CDE4"/>
+        <path d="M80.6213 13.1945H90.8915C91.5351 13.1932 92.152 12.9376 92.6066 12.4843C93.0612 12.031 93.3166 11.4166 93.3166 10.7762C93.3166 10.1358 93.0612 9.52232 92.6066 9.06903C92.152 8.61573 91.5351 8.36017 90.8915 8.35889H80.6213C80.3018 8.35825 79.9853 8.42041 79.6899 8.54163C79.3946 8.66286 79.1261 8.84066 78.9 9.06524C78.6738 9.28982 78.4944 9.55652 78.372 9.85018C78.2495 10.1438 78.1865 10.4583 78.1865 10.7762C78.1865 11.0941 78.2495 11.4095 78.372 11.7032C78.4944 11.9968 78.6738 12.2635 78.9 12.4881C79.1261 12.7127 79.3946 12.8905 79.6899 13.0117C79.9853 13.1329 80.3018 13.1951 80.6213 13.1945Z" fill="#C6CDE4"/>
+        <path d="M97.1062 0.117681H80.6213C80.3018 0.117044 79.9853 0.179199 79.6899 0.300423C79.3946 0.421646 79.1261 0.599449 78.9 0.82403C78.6738 1.04861 78.4944 1.31531 78.372 1.60897C78.2495 1.90263 78.1865 2.21801 78.1865 2.53593C78.1865 2.85386 78.2495 3.16829 78.372 3.46195C78.4944 3.75562 78.6738 4.02231 78.9 4.24689C79.1261 4.47147 79.3946 4.64928 79.6899 4.7705C79.9853 4.89172 80.3018 4.95388 80.6213 4.95324H97.1062C97.4257 4.95388 97.7422 4.89172 98.0376 4.7705C98.333 4.64928 98.6014 4.47147 98.8276 4.24689C99.0537 4.02231 99.2332 3.75562 99.3556 3.46195C99.478 3.16829 99.5409 2.85386 99.5409 2.53593C99.5409 2.21801 99.478 1.90263 99.3556 1.60897C99.2332 1.31531 99.0537 1.04861 98.8276 0.82403C98.6014 0.599449 98.333 0.421646 98.0376 0.300423C97.7422 0.179199 97.4257 0.117044 97.1062 0.117681Z" fill="#C6CDE4"/>
+        <path d="M97.1062 16.6382H80.6213C80.3018 16.6376 79.9853 16.6997 79.6899 16.8209C79.3946 16.9422 79.1261 17.12 78.9 17.3445C78.6738 17.5691 78.4944 17.8358 78.372 18.1295C78.2495 18.4231 78.1865 18.7376 78.1865 19.0555C78.1865 19.3734 78.2495 19.6888 78.372 19.9825C78.4944 20.2761 78.6738 20.5428 78.9 20.7674C79.1261 20.992 79.3946 21.1698 79.6899 21.291C79.9853 21.4122 80.3018 21.4744 80.6213 21.4737H97.1062C97.4257 21.4744 97.7422 21.4122 98.0376 21.291C98.333 21.1698 98.6014 20.992 98.8276 20.7674C99.0537 20.5428 99.2332 20.2761 99.3556 19.9825C99.478 19.6888 99.5409 19.3734 99.5409 19.0555C99.5409 18.7376 99.478 18.4231 99.3556 18.1295C99.2332 17.8358 99.0537 17.5691 98.8276 17.3445C98.6014 17.12 98.333 16.9422 98.0376 16.8209C97.7422 16.6997 97.4257 16.6376 97.1062 16.6382Z" fill="#C6CDE4"/>
+        <path d="M37.5351 1.35471C37.3364 0.958643 37.0318 0.625709 36.6548 0.390815C36.2777 0.155921 35.8428 0.0282531 35.398 0.0234375H35.3613H35.3178C34.8707 0.0264353 34.4331 0.151998 34.0535 0.387028C33.6739 0.622057 33.367 0.956928 33.1667 1.35471L24.7827 17.9274C24.4929 18.5011 24.4439 19.1661 24.6465 19.7757C24.849 20.3853 25.2865 20.8902 25.8629 21.1789C26.4392 21.4676 27.1071 21.5164 27.7199 21.3152C28.3326 21.114 28.84 20.6794 29.1304 20.1061L35.351 7.81033L41.5713 20.1061C41.8622 20.6788 42.3696 21.1126 42.982 21.3133C43.5945 21.5141 44.2619 21.4655 44.8379 21.177C45.4139 20.8885 45.8513 20.3838 46.054 19.7747C46.2567 19.1656 46.2083 18.501 45.9193 17.9274L37.5351 1.35471Z" fill="#C6CDE4"/>
+        <path d="M186.927 1.56396C186.748 1.1111 186.437 0.722419 186.034 0.447626C185.631 0.172833 185.154 0.0250487 184.665 0.0234375H184.647C184.157 0.0238181 183.679 0.170851 183.275 0.445732C182.87 0.720613 182.559 1.11015 182.38 1.56396L174.102 17.9284C173.814 18.5018 173.767 19.1647 173.97 19.7728C174.173 20.381 174.61 20.8841 175.185 21.1723C175.761 21.4604 176.427 21.5105 177.039 21.3105C177.651 21.1105 178.158 20.6766 178.45 20.1052L184.653 7.84347L190.857 20.1052C191.148 20.6766 191.656 21.1105 192.268 21.3105C192.879 21.5105 193.546 21.4604 194.121 21.1723C194.697 20.8841 195.134 20.381 195.337 19.7728C195.54 19.1647 195.492 18.5018 195.205 17.9284L186.927 1.56396Z" fill="#C6CDE4"/>
+        <path d="M170.73 0.283821L170.727 0.281927C170.151 -0.00585474 169.483 -0.054721 168.871 0.146528C168.259 0.347777 167.752 0.781977 167.461 1.35471L161.246 13.6401L155.137 1.56396C154.959 1.11104 154.648 0.722403 154.244 0.447626C153.841 0.17285 153.364 0.0249069 152.875 0.0234375H152.857C152.367 0.0239639 151.889 0.170876 151.485 0.445732C151.08 0.720589 150.769 1.11024 150.59 1.56396L144.484 13.6353L138.271 1.35471C137.98 0.78196 137.473 0.348321 136.861 0.147475C136.248 -0.0533719 135.581 -0.00467941 135.005 0.283821C134.429 0.572322 133.991 1.07696 133.788 1.68611C133.586 2.29525 133.634 2.95887 133.923 3.53246L142.307 20.1061C142.501 20.4843 142.79 20.8049 143.146 21.0378C143.503 21.2707 143.914 21.4074 144.34 21.4336C144.371 21.4353 144.402 21.437 144.424 21.4374H144.469H144.534C144.565 21.437 144.597 21.4353 144.644 21.4327C145.067 21.4044 145.475 21.2676 145.828 21.035C146.182 20.8023 146.468 20.4822 146.66 20.1061L152.863 7.84347L159.067 20.1061C159.266 20.5005 159.569 20.8324 159.944 21.0672C160.32 21.3019 160.753 21.4303 161.196 21.4374H161.259H161.292C161.736 21.4308 162.169 21.3029 162.545 21.0681C162.922 20.8333 163.226 20.501 163.425 20.1061L171.809 3.53341C171.953 3.24956 172.039 2.94042 172.062 2.62349C172.086 2.30656 172.046 1.98786 171.946 1.68611C171.846 1.38436 171.687 1.10486 171.478 0.86424C171.27 0.623619 171.015 0.426672 170.73 0.283821Z" fill="#C6CDE4"/>
+    </svg>
+</a>
+
+
+<!--        <a href="/" class="w-max mx-auto inline-block mt-12 lg:order-2 lg:mr-0 lg:ml-auto lg:mt-0 lg:w-[50%]">-->
+<!--            <img src="/images/footer/footer-news/logo.svg" alt="img" loading="lazy" class="w-[111px] lg:ml-auto lg:w-[222px]">-->
+        </a>
+    </div>
+
+</footer>
+</div>
+
+<section
+	class="fixed inset-0 bg-[#F5F5F7] z-50 pt-24 sm:pt-[170px]"
+	aria-hidden="true"
+	data-role="order-form"
+>
+	<div class="container">
+		<div class="flex justify-center">
+			<div
+				class="w-[320px] relative flex flex-col items-center justify-center"
+			>
+				<!--  CLOSE BTN -->
+				<button
+					type="button"
+					data-role="close-order-form"
+					class="absolute z-30 -top-12 right-0 sm:-right-[55px]"
+				>
+					<span class="w-8 h-8 block lg:w-6 lg:h-6">
+						<svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+							<path d="M26 6L16 16L6 6" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M6 26L16 16L26 26" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</span>
+
+				</button>
+				<!--  CLOSE BTN -->
+
+				<header class="text-center mb-5">
+					<h6 class="text-[30px] leading-[24px] text-[#1D1D1F] font-semibold">
+						Оставить заявку на франшизу
+					</h6>
+				</header>
+
+				<div class="flex flex-col w-full mt-1">
+  <label for="name" class="flex justify-between">
+    <span class="text-[14px] leading-[120%] text-[#808796] pb-[3px] pl-1">
+      Имя
+    </span>
+    <span class="text-[#F00] self-start text-[11px] leading-[9px]" aria-required="true">
+      *
+    </span>
+  </label>
+  <div class="flex flex-col">
+    <input
+            class="w-full py-3 px-4  text-[16px] leading-[150%]  border border-[#E8ECF4]
+                    outline-[#6A35FF] placeholder:text-[#D0D0E5] transition-all duration-300"
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Имя"
+            value=""
+            required
+    >
+    <p class="inputError text-[10px] leading-[11px] tracking-[2%] font-open text-[#FF1515] pl-1" aria-hidden="true">
+      no error
+    </p>
+  </div>
+</div>
+
+
+				<div class="flex flex-col w-full mt-1.5">
+  <label for="phone" class="flex justify-between">
+    <span
+      class="group-[.question]:hidden text-[14px] leading-[120%] text-[#808796] pb-[3px] pl-1"
+    >
+      Телефон
+    </span>
+    <span
+      class="group-[.question]:hidden text-[#F00] self-start text-[11px] leading-[9px]"
+      aria-required="true"
+    >
+      *
+    </span>
+  </label>
+  <div class="flex relative flex-col">
+    <input
+      class="group-[.question]:py-2 w-full py-3 pr-4 pl-[54px] text-[16px] leading-[16px] border border-[#E8ECF4] outline-[#6A35FF] placeholder:text-[#D0D0E5] transition-all duration-300"
+      id="phone"
+      type="tel"
+      name="phone"
+      placeholder=""
+      value=""
+      required
+    />
+    <p class="inputError text-[10px] leading-[120%] tracking-[2%] font-open text-[#FF1515] pl-1" aria-hidden="true">
+      no error
+    </p>
+    <button
+      class="phone-select-trigger absolute flex items-center top-3.5 left-4"
+    >
+      <img
+        class="w-[21px] h-auto border"
+        src="/assets/ru-cca5ab0b.svg"
+        alt="Россия (+7)"
+      />
+      <span>
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M4.66699 6L8.00033 10L11.3337 6H4.66699Z" fill="#999999" />
+        </svg>
+      </span>
+    </button>
+
+    <div
+      aria-hidden="false"
+      class="absolute z-10 bg-white top-[48px] inset-x-0 rounded-[20px] phone-select-data"
+    ></div>
+  </div>
+</div>
+
+
+				<div class="flex flex-col w-full mt-1.5">
+    <label for="email" class="flex justify-between">
+    <span class="text-[14px] leading-[120%] text-[#808796] pb-[3px] pl-1">
+      Email
+    </span>
+        <span class="text-[#FF00FE] opacity-0 self-start text-[11px] leading-[9px]" aria-required="false">
+      *
+    </span>
+    </label>
+    <div class="flex flex-col">
+        <input
+                class="w-full py-3 px-4 text-[16px] leading-[150%] border border-[#E8ECF4]
+                    outline-[#6A35FF] placeholder:text-[#D0D0E5] transition-all duration-300"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Email"
+                value=""
+        >
+        <p class="inputError text-[9px] leading-[11px] tracking-[2%] text-[#FF1515] pl-4" aria-hidden="true">
+            no error
+        </p>
+    </div>
+</div>
+
+
+				<div class="mt-32 md:mt-7 md:flex md:flex-col-reverse">
+					<footer class="md:mt-4">
+						<p
+								class="text-[14px] leading-[120%] text-center text-[#808796]"
+						>
+							Нажимая на «Оставить заявку», вы соглашаетесь с
+							условиями
+							<a
+									class="text-[#6A35FF] transition-all duration-300 hover:bg-opacity-80"
+									href="/policy/"
+							>Политики конфиденциальности</a
+							>
+						</p>
+					</footer>
+
+					<button
+							id="orderForm-submit"
+							type="button"
+							class="mt-5 border border-[#F00] text-[white] bg-[#F00] w-full py-3.5 text-[26px] leading-[30px] font-bold disabled:bg-[#E8ECF4] disabled:border-[#E8ECF4]  transition-all duration-300 hover:bg-opacity-80 md:mt-0"
+							disabled
+					>
+						Оставить заявку
+					</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<div id="successMessage" class="fixed z-[100] bg-white top-0 left-0 w-full h-full pt-16 pb-10 sm:pt-0 sm:pb-0  sm:right-4 sm:bottom-4 sm:top-[unset] sm:left-[unset] max-h-full max-w-full sm:max-w-[432px] sm:max-h-[138px]" aria-hidden="true">
+    <div class="flex flex-col justify-center items-center sm:items-start sm:flex-row  sm:justify-between h-full">
+        <div class="sm:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
+                <path d="M25.5 49C38.4787 49 49 38.4787 49 25.5C49 12.5213 38.4787 2 25.5 2C12.5213 2 2 12.5213 2 25.5C2 38.4787 12.5213 49 25.5 49Z" stroke="#0000FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M36.2702 19.625L21.9009 33.3333L14.7285 26.4792" stroke="#0000FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="p-8">
+            <h6 class="text-[32px] leading-[140%] text-center max-w-[210px] mx-auto sm:max-w-full sm:mx-0 sm:text-left sm:text-[20px] sm:leading-[28px] text-[#00F] ">
+                Ваша заявка  успешно отправлена
+            </h6>
+            <p class="text-[24px] leading-[140%] text-center mt-8 sm:text-left sm:text-[16px] sm:leading-[21px] text-[#1D1D1F] sm:mt-3 max-w-[250px]">
+                Менеджер свяжется с вами в ближайшее время с 9 до 19 по московскому времени.
+            </p>
+        </div>
+        <div class="w-[56px] justify-end items-start p-4 hidden sm:flex">
+            <button class="closeMessage">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26 6L16 16L6 6" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 26L16 16L26 26" stroke="#101828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="w-[312px] mx-auto block sm:hidden mt-auto">
+            <button class="closeMessage w-full py-4 bg-[#00F] text-[26px] text-white uppercase font-bold">
+                ок
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
