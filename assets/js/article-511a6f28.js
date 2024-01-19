@@ -1,4 +1,4 @@
-import{S as J,N as W,d as X,f as K}from"./navigation-d99c9a33.js";import{g as N,S as Q,n as Z}from"./ScrollTrigger-e4a43cfc.js";const tt=()=>{new J(".content-slider_article-page",{modules:[W],slidesPerView:1,spaceBetween:10,navigation:{prevEl:".content-slider_button-prev",nextEl:".content-slider_button-next"}})};var j={exports:{}};/*!
+import{S as J,N as W,d as X,f as K}from"./navigation-d06a8d2c.js";import{g as N,S as Q,n as Z}from"./ScrollTrigger-1884d9d6.js";const tt=()=>{new J(".content-slider_article-page",{modules:[W],slidesPerView:1,spaceBetween:10,navigation:{prevEl:".content-slider_button-prev",nextEl:".content-slider_button-next"}})};var j={exports:{}};/*!
  * clipboard.js v2.0.11
  * https://clipboardjs.com/
  *
